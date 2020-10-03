@@ -53,11 +53,31 @@ body{
 	margin-left: 20px;
 }
 
+#home .btn-info-home {
+	/* border: 2px solid red; */
+	background-color: red;
+}
+
 .btn-info:hover{
 	background-color: rgba(0, 0, 0, 0.062);
 }
 
+#sintomas .barra_box_sintomas,
+#home .barra_box_home,
+#dados .barra_box_dados,
+#prevencao .barra_box_prevencao{
+	background-color: rgba(0, 0, 0, 0.062);
+	border-radius: 10px;
+}
+
 /************** Formatando os links **************/
+
+#home .home a,
+#sintomas .sintomas a,
+#dados .dados a,
+#prevencao .prevencao a{
+	color: blueviolet;
+}
 
 a{
 	color: black;
@@ -68,6 +88,7 @@ a:hover{
 	color: blueviolet;
 	text-decoration: underline;
 }
+
 
 
 /************** Formatando os links **************/
