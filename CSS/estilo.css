@@ -117,6 +117,7 @@ a:hover{
 }
 
 .alinhando_ul{
+	font-family: Arial, Helvetica, sans-serif;
 	margin-left: 20px;
 	padding: 20px;
 }
@@ -233,4 +234,9 @@ table{
 	background-color: red;
 	color: white;
 	width: 770px;
+}
+
+strong{
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
 }
